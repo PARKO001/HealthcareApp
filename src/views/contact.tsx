@@ -5,8 +5,8 @@ const Contact: React.FC = () => {
   return (
     <Container className="mt-5">
       <Row>
-        <Col>
-          <h1>Contact Us</h1>
+        <Col> 
+          <h1>Contact</h1>
         </Col>
       </Row>
     </Container>
