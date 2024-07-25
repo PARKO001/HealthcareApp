@@ -1,16 +1,59 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import Card from '../components/card';
 
 const Home: React.FC = () => {
   return (
-    <Container className="mt-5">
+    <Container className="mt-3">
       <Row>
         <Col>
-          <h1>Welcome to My React App</h1>
-          <p>
-            This is a simple home page created using React and TypeScript with React-Bootstrap.
-          </p>
-          <Button variant="primary">Learn More</Button>
+          <h3>Patient Dashboard</h3>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Card
+            heading="Card Title 1"
+            text="This is the text area for card 1. It has some interesting content."
+            imageSrc="https://via.placeholder.com/150"
+          />
+        </Col>
+        <Col>
+          <Card
+            heading="Card Title 1"
+            text="This is the text area for card 1. It has some interesting content."
+            imageSrc="https://via.placeholder.com/150"
+          />
+        </Col>
+        <Col>
+          <Card
+            heading="Card Title 1"
+            text="This is the text area for card 1. It has some interesting content."
+            imageSrc="https://via.placeholder.com/150"
+          />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Card
+            heading="Card Title 1"
+            text="This is the text area for card 1. It has some interesting content."
+            imageSrc="https://via.placeholder.com/150"
+          />
+        </Col>
+        <Col>
+          <Card
+            heading="Card Title 1"
+            text="This is the text area for card 1. It has some interesting content."
+            imageSrc="https://via.placeholder.com/150"
+          />
+        </Col>
+        <Col>
+          <Card
+            heading="Card Title 1"
+            text="This is the text area for card 1. It has some interesting content."
+            imageSrc="https://via.placeholder.com/150"
+          />
         </Col>
       </Row>
     </Container>
